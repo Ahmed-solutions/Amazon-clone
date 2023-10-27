@@ -229,3 +229,39 @@ font-size: 1.1rem;
     justify-content: center;
     align-items: center;
 }
+@media screen and (min-width:1318px)
+{
+    .nav-search
+    {
+       display:flex;
+       background-color: rgb(239, 177, 60);
+      width:45rem;
+      height:40px;
+      border-radius: 4px;
+      justify-content: space-evenly;
+    }  
+}
+@media screen and (min-width:1038px) and (max-width:1317px)
+{
+    .nav-search
+    {
+       display:flex;
+       background-color: rgb(239, 177, 60);
+      width:35rem;
+      height:40px;
+      border-radius: 4px;
+      justify-content: space-evenly;
+    }  
+}
+@media screen and (min-width:824px) and (max-width:1037px)
+{
+    .nav-search
+    {
+       display:flex;
+       background-color: rgb(239, 177, 60);
+      width:25rem;
+      height:40px;
+      border-radius: 4px;
+      justify-content: space-evenly;
+    }  
+}
